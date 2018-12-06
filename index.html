@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    <title>hangman game</title>
+  </head>
+  <body>
+        <audio autoplay> 
+                <source src="assets/audio/effect.mp3"> 
+        </audio>
+    <h1>Who is that Pokemon?</h1>
+    <div class="bodyDiv">
+        <div class="main-div">
+            <form class="textForm"></form>
+            <div id="words-here" class="div-sub"></div>
+            <div id="generate-word" class="div-sub1" ></div>
+            <div class="div-2" >Chances to catch them:  <span id="lifes-left">10</span></div>
+            <br>
+            <br>
+            <p>Letters guessed wrong:</p>
+            <div id="guessed-wrong"></div>
+            
+        </div>
+
+        <div class="pokeDiv1">
+                
+                <span class="poke-images-div"><img src="assets/images/Pikachu.gif" alt="image" class= "poke-images"> </span>
+                <span class="poke-images-div"><img src="assets/images/Mega_Charizard_Y_Model.gif" alt="image" class= "poke-images"> </span>
+                <span class="poke-images-div other"><img src="assets/images/lucario-2.gif" alt="image" class="poke-images2" > </span>
+                <audio autoplay controls> 
+                    <source src="assets/audio/Battle! Trainer (Pokémon X & Y) - Super Smash Bros. 3DS.mp3"> 
+                </audio>
+          
+        </div>
+    </div>
+    <br>
+    
+    <hr>
+
+    
+<script src="assets/javascript/game.js"></script>
+    
+    
+  </body>
+</html>

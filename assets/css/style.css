@@ -1,0 +1,132 @@
+.bodyDiv {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+     
+}
+.bodyDiv{
+    position: fixed;
+    margin-top : 0px;
+}
+.main-div{
+    position: relative;
+    border-radius: 40px;
+    width: 50%;
+    height: 340px;
+    margin: 0 auto;
+    margin-top:60px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(99, 99, 99);
+    padding:5px;
+    opacity: 0.7 ;
+    color: white;
+    
+}
+
+.div-sub{
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    width: fit-content;
+    height: 40px;
+    color: blue;
+    opacity: 0.8;
+   
+}
+#guessed-wrong {
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30px;
+    background-color: white ;
+    opacity: 0.8;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-2 {
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    width: fit-content;
+    height: 40px;
+    color: blue;
+    font-size:25px; 
+}
+
+h1{
+ text-align: center;
+ font-size: 60px;
+ background-color: black;
+ color: white;
+ padding: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+
+}
+
+.poke-images{
+    width: 150px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: -130px;
+        
+}
+.poke-images2{
+    width: 150px;
+    margin-top: -130px;
+        
+}
+.pokeDiv1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    height: 80px;
+    width: 50%;
+    margin-top: 100px;
+
+    
+}
+audio{
+    position: relative;
+    margin-top: -25px;
+}
+.other{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 650px){
+    .main-div{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .pokeDiv1{
+        border-radius: 0px; 
+        width: 100%;
+    }
+    .poke-images{
+        width: 130px;
+    }
+    .poke-images2{
+        display: none;
+    }
+}
+
+    
