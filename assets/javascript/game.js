@@ -8,14 +8,14 @@ var lettersInRandomFruit = [];
 var lettersGuessedRight = [];
 var lettersGuessedWrong = [];
 var wordsDiv = document.getElementById("words-here");
-console.log(wordsDiv);
+// console.log(wordsDiv);
 var guessedWrong = document.getElementById("guessed-wrong");
 var fruits = ['balbasaur', 'blastoise', 'venusaur', 'charmander', 'caterpie','charizard','squirtle','pidgeotto', 'ekans', 'pikachu',
 'raichu', 'nidoran', 'vulpix', 'jiglypuff', 'zubat', 'psyduck', 'arcanine', 'geodude', 'golem', 'slowpoke', 'gengar', 'onix',
 'koffing', 'magikarp', 'eevee', 'moltres', 'mewtwo', 'articuno', 'zapdos', 'fennekin', 'greninja', 'pancham', 'malamar', 'zygarde', 'xernas',
 'yveltal', 'sceptile', 'sharkpedo', 'bagon', 'latias', 'rayquaza','blaziken', 'lucario', 'infernape'];
 var randomfruit = getRandomFruit();
-console.log(randomfruit);
+// console.log(randomfruit);
 var newArray = randomfruit.split('');
 var string = newArray.join(' ');
 
@@ -79,7 +79,7 @@ document.addEventListener('keyup', function(keyEvent) {
         var words2 = wordsDiv.innerHTML = lettersInRandomFruit.join(' ');
         if (words2===string){
             
-            if(confirm('YOU GOT...' + randomfruit, audioEffect() )){
+            if(confirm('YOU GOT...' + randomfruit)){
             window.location.reload();
         }  
          
